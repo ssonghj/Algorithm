@@ -32,7 +32,7 @@ public class _1157 {
 			}
 		}
 		
-		if(n >= 2) {//2 >= max
+		if(n >= 2) {//overlap
 			System.out.println('?');
 		}
 		else {//not overlap
