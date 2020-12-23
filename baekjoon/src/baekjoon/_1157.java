@@ -19,7 +19,7 @@ public class _1157 {
 		char max_c=0;
 		
 		for(int i = 0; i<arr.length; i++) {
-			if( max_i <= arr[i]) {//max < count 
+			if( max_i <= arr[i]) {//max <= count 
 				max_i = arr[i];
 				max_c = (char) (i+65);
 			}
